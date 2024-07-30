@@ -1,0 +1,10 @@
+.simply-countdown .simply-section {
+    color: white;
+    background-color: transparent;
+    box-shadow: none;
+    /* font-family: unset */
+}
+
+.simply-countdown {
+    font-family: unset;
+}

@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Wedding of ...</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- gFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+DK+Uloopet:wght@100..400&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <!-- countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="/css/animation.css">
+    <!-- countdown css -->
+    <link rel="stylesheet" href="/css/countdownOption.css">
+</head>
+
+<body>
+
+
+    <section id="uniqueSection1" class="overlay-section">
+        <h2 class="luminounce">THE WEDDING OF</h2>
+        <h2 class="tracking-in-expand-fwd firstWord text-white"></h2>
+        <h2 class="tracking-in-expand-fwd secondWord hiddenOppening text-white">Adhindha & Hananta</h2>
+    </section>
+
+    <section id="hero"
+        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white overlay-section hidden">
+        <video autoplay muted loop id="videoBackground"></video>
+        <main>
+            <div class="row header-row-text">
+                <h4>THE WEDDING OF</h4>
+                <h1>hananta & Adhindha</h1>
+                <p>Sabtu 14 Agustus 2024</p>
+            </div>
+            <div class="row spacer"></div>
+            <!-- <div class="simply-countdown"></div> -->
+            <div class="row">
+                <h4>Kepada Yth</h4>
+                <h4 class="guestPerson"><span></span></h4>
+                <span class="mt-4 shake-vertical">
+                    <a class="btn btn-lg" onclick="enableScroll()"><i
+                            class="bi bi-envelope-open-heart-fill me-3"></i>Lihat Undangan</a>
+                </span>
+            </div>
+        </main>
+    </section>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center surah-container">
+                    <!-- <h2>Acara Pernikahan</h2> -->
+                    <h3>QS. Ar-Rum 21</h3>
+                    <h4>“Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+                        pasangan-pasangan untukmu dari
+                        jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
+                        antaramu rasa kasih dan sayang.”</h4>
+                    <!-- <p>Oleh karena itu, dengan egala hormat, kami bermaksud untuk mengundang Bapak/Ibu Saudara/i untuk
+                        hadir pada acara pernikahan kami.</p> -->
+                </div>
+                <div class="col-md-8 signature">
+                    <h1>hananta & Adhindha</h1>
+                </div>
+            </div>
+            <!-- 
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Hananta Arigio</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus delectus itaque voluptate
+                                voluptas reprehenderit nulla? Reiciendis quaerat consequatur magnam tenetur.</p>
+                            <p>Putra dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/p-male-360x360.jpg" alt="hananta" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+
+                <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/p-female-360x360.jpg" alt="hananta" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Adhindha k</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus delectus itaque voluptate
+                                voluptas reprehenderit nulla? Reiciendis quaerat consequatur magnam tenetur.</p>
+                            <p>Putri dari Bpk. Ipsum <br> dan <br> Ibu Lorem</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+    <section class="bride" id="bride">
+        <div class="container ">
+            <h2 class="bride-title">THE BRIDE</h2>
+            <h1>Adhindha Kathrina Dwi Ayuk, S.Pi</h1>
+            <div class="row">
+
+                <div class="col-6">
+                    <h6>Puteri dari</h6>
+                </div>
+                <div class="col-6">
+                    <hr>
+                </div>
+            </div>
+            <h4>Bpk Sujar - Ibu Wartini</h4>
+            <a href="" class="btn btn-lg rounded-pill instagram"><i class="bi bi-instagram me-3"></i>adhindha</a>
+        </div>
+    </section>
+
+    <section class="groom" id="groom">
+        <div class="container ">
+            <h2 class="groom-title">THE GROOM</h2>
+            <h1>Hananta Arigio, S.M</h1>
+            <div class="row">
+
+                <div class="col-6">
+                    <h6>Putera dari</h6>
+                </div>
+                <div class="col-6">
+                    <hr>
+                </div>
+            </div>
+            <h4>Bpk Sunari - Ibu Giar Budi Utami</h4>
+            <a href="" class="btn btn-sm rounded-pill instagram"><i class="bi bi-instagram me-3"></i>hananta</a>
+        </div>
+    </section>
+
+    <section class="countdown-section" id="countdown-section">
+        <div class="container ">
+            <div class="row text-center text-white mb-3">
+                <h1>Adhindha & Hananta</h1>
+                <h4>HITUNGAN HARI</h4>
+            </div>
+            <div class="simply-countdown"></div>
+        </div>
+    </section>
+
+    <section class="date-section" id="date-section">
+        <div class="container">
+            <div class="row text-center text-white date-section-title">
+                <h4>SAVE OUR DATE</h4>
+                <h1>Adhindha & Hananta</h1>
+            </div>
+            <div class="row row-animated justify-content-center mt-4 hidden gap-5 date-section-info">
+                <div class="col-md-5 col-10 text-center text-white ">
+                    <h1 class="mb-2">Akad Nikah</h1>
+                    <h5>Minggu, 14 September 2024</h5>
+                    <h6>08.00 - 10.00</h6>
+                    <div class="address mt-2">
+                        <h4>Kediaman Mempelai Wanita</h4>
+                        <p>Jl. Kemasan No.1, Dusun Magetan, Magetan, Kec. Magetan, Kabupaten Magetan, Jawa Timur 63361
+                        </p>
+                        <a href="https://maps.app.goo.gl/2m551By1Mh49yLiW9" target="_blank"
+                            class="gmaps-link btn border-bottom text-white">Google Maps</a>
+                    </div>
+
+                </div>
+                <div class="col-md-5 col-10 text-center text-white ">
+                    <h1 class="mb-2">Resepsi</h1>
+                    <h5>Minggu, 14 September 2024</h5>
+                    <h6>08.00 - 10.00</h6>
+                    <div class="address mt-2">
+                        <h4>Wisma PGRI Magetan</h4>
+                        <p>Jl. Kemasan No.1, Dusun Magetan, Magetan, Kec. Magetan, Kabupaten Magetan, Jawa Timur 63361
+                        </p>
+                        <a href="https://maps.app.goo.gl/2m551By1Mh49yLiW9" target="_blank"
+                            class="gmaps-link btn border-bottom text-white">Google Maps</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center date-section-save">
+                <span>
+                    <a href="https://www.google.com/calendar/render?action=TEMPLATE
+                    &text=Wedding+Party
+                    &dates=20240814T180000Z/20240814T220000Z
+                    &details=Celebration+of+Love
+                    &location=123+Main+St%2C+Anytown%2C+USA
+                    &sf=true
+                    &output=xml" target="_blank" class="btn btn-md rounded-pill date-save-link">
+                        <i class="bi bi-calendar3 me-3"></i>
+                        Add to calendar
+                    </a>
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="rsvp" id="rsvp">
+        <div class="container">
+            <div class="row row-animated justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Kehadiran & Ucapan</h2>
+                    <p>Di harapkan kepada Bapak/Ibu/Saudara/i untuk mengkonfirmasi kehadiran ataupun menuliskan ucapan
+                        serta doa kepada kami melalui form di bawah ini,</p>
+                </div>
+            </div>
+            <form class="row row-animated row-cols-md-auto g-3 align-items-center justify-content-center" method="post"
+                id="my-form"
+                action="https://script.google.com/macros/s/AKfycbw2AOuAKOpycS3L4K6wZSUJuqO2Bh6R8egxlimr-OFi3-ngRhno8lHDRJ3FMckp7LWD/exec">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5"
+                            maxLength="1" value="1" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select" required>
+                            <option value="" disabled selected>Pilih salah satu</option>
+                            <option value="HADIR">Hadir</option>
+                            <option value="TIDAK HADIR">Tidak Hadir</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="pesan" class="form-label">Kirim Pesan</label>
+                        <textarea name="pesan" id="" cols="" rows="1" maxlength="50" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center" style="margin-top: 35px;">
+                    <button class="btn btn-lg formSubmitButton px-5">Kirim</button>
+                </div>
+
+            </form>
+
+            <!-- <div class="row row-animated justify-content-center mt-5">
+                <div class="col-md-6">
+                    <div id="comments-list" class="comments rounded border"></div>
+                    <div id="pagination-controls" class="d-flex justify-content-center"></div>
+                </div>
+            </div> -->
+    </section>
+
+    <section class="comment-section" id="comment-section">
+        <div class="container">
+            <div class="row row-animated justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Kehadiran & Ucapan</h2>
+                    <p>Di harapkan kepada Bapak/Ibu/Saudara/i untuk mengkonfirmasi kehadiran ataupun menuliskan ucapan
+                        serta doa kepada kami melalui form di bawah ini,</p>
+                </div>
+            </div>
+
+
+            <div class="row row-animated justify-content-center mt-5">
+                <div class="col-md-10 col-12">
+                    <div id="comments-list" class="comments comments-seperate "></div>
+                    <div id="pagination-controls" class="d-flex justify-content-center"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery-section">
+        <div class="container">
+            <div class="row row-animated justify-content-center mb-5">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Our Gallery</h2>
+                    <!-- <p>Di harapkan kepada Bapak/Ibu/Saudara/i untuk mengkonfirmasi kehadiran ataupun menuliskan ucapan
+                        serta doa kepada kami melalui form di bawah ini,</p> -->
+                </div>
+            </div>
+            <section class="unique-gallery-section mt-5">
+                <div class="unique-gallery-container">
+                    <div class="unique-gallery-item">
+                        <a href="img/closing.jpeg" target="_blank" class="col-sm-4">
+                            <img src="img/closing.jpeg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="unique-gallery-item">
+                        <a href="img/kehadiran.jpeg" data-toggle="lightbox" data-gallery="example-gallery"
+                            class="col-sm-4">
+                            <img src="img/kehadiran.jpeg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div class="unique-gallery-item">
+                        <a href="img/gallery.jpeg" data-toggle="lightbox" data-gallery="example-gallery"
+                            class="col-sm-4">
+                            <img src="img/gallery.jpeg" alt="Image 3">
+                        </a>
+                    </div>
+                    <div class="unique-gallery-item">
+                        <a href="img/closing.jpeg" data-toggle="lightbox" data-gallery="example-gallery"
+                            class="col-sm-4">
+                            <img src="img/closing.jpeg" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="unique-gallery-item">
+                        <a href="img/bride.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                            <img src="img/bride.jpeg" alt="Image 2">
+                        </a>
+                    </div>
+                    <div data-toggle="lightbox" data-gallery="example-gallery" data-src="/img/section_pertama.webp"
+                        data-title="section_pertama"></div>
+                    <div data-toggle="lightbox" data-gallery="example-gallery" data-src="/img/countdown.jpeg"
+                        data-title="countdown"></div>
+                    <div data-toggle="lightbox" data-gallery="example-gallery" data-src="/img/date.jpeg"
+                        data-title="date"></div>
+                    <div data-toggle="lightbox" data-gallery="example-gallery" data-src="/img/hero-bg.jpeg"
+                        data-title="hero"></div>
+                    <div data-toggle="lightbox" data-gallery="example-gallery" data-src="/img/ucapan.jpeg"
+                        data-title="ucapan"></div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="closing-section" id="closing-section">
+        <div class="div">
+            <div class="row header-row-text text-center text-white">
+                <h4>Terima Kasih</h4>
+                <h1>Hananta & Adhindha</h1>
+                <p>Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir
+                    dan memberikan do’a restu kepada Kami.</p>
+            </div>
+            <div class="row spacer"></div>
+            <!-- <div class="simply-countdown"></div> -->
+            <div class="row text-center text-white">
+                <small class="block">&copy; <span id="year"></span> essentialsJcode.com . All Right Reserved.</small>
+                <small class="block">Design by <a href="http://instagram.com/johantrya">@johantrya</a></small>
+
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-10 text-center align-self-start">
+                    <h1>Terima Kasih</h1>
+                    <h2>Adhindha & Hananta</h2>
+                    <p>Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir
+                        dan memberikan do’a restu kepada Kami.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-10 text-white text-center align-self-start">
+                    <small class="block">&copy; 2024 essentialsJcode.com . All Right Reserved.</small>
+                    <small class="block">Design by <a href="http://instagram.com/johantrya">@johantrya</a></small>
+
+                    <ul class="mt-3">
+                        <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                        <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                        <li><a href=""><i class="bi bi-youtube"></i></a></li>
+                        <li><a href=""><i class="bi bi-threads"></i></a></li>
+                        <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+
+
+
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="song/wedding-song-1.mp3" type="audio/mp3">
+        </audio>
+        <div class="audio-icon-wrapper" style="display: none;">
+            <i class="bi bi-disc"></i>
+        </div>
+    </div>
+
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- lighbox -->
+    <!-- https://trvswgnr.github.io/bs5-lightbox/ -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- opening -->
+    <script src="js/opening.js"></script>
+
+    <!-- countdown option -->
+    <script src="js/countdownOption.js"></script>
+
+    <!-- disable scroll -->
+    <script src="js/disableScroll.js"></script>
+
+    <!-- gform submit js -->
+    <script src="js/gsheetForm.js"></script>
+
+
+    <!-- get query params js-->
+    <script src="js/queryParams.js"></script>
+
+    <!-- comments -->
+    <script src="js/comment.js"></script>
+
+    <!-- animation -->
+    <script src="js/animation.js"></script>
+
+    <!-- JavaScript to set the current year -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
