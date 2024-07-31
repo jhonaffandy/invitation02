@@ -241,7 +241,7 @@ body {
 /* ================================================== home section ================================================== */
 .home::before {
     content: '';
-    background-image: url(../img/section_pertama.webp);
+    background-image: url(../img/surah.jpeg);
     background-size: cover;
     background-position: center bottom;
     z-index: -2;
