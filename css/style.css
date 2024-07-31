@@ -173,6 +173,7 @@ body {
 .hero {
     position: relative;
     min-height: 100vh;
+    overflow: hidden;
     /* background-color: var(--bg); */
 
 }
@@ -218,6 +219,7 @@ body {
     object-fit: cover;
     z-index: -2;
     /* Ensure the video stays behind content */
+    pointer-events: none;
 }
 
 .header-row-text {
