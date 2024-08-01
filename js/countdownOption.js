@@ -1,8 +1,8 @@
 simplyCountdown(".simply-countdown", {
   year: 2024, // required
-  month: 8, // required
-  day: 17, // required
-  hours: 10, // Default is 0 [0-23] integer
+  month: 9, // required
+  day: 14, // required
+  hours: 13, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 0, // Default is 0 [0-59] integer
   words: {
