@@ -294,7 +294,7 @@ h2.shine-animation {
     background-repeat: no-repeat;
     background-size: 80%;
     animation: shine-animate 3s linear infinite;
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
