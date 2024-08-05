@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       firstWord.classList.toggle("hiddenOppening");
       secondWord.classList.toggle("hiddenOppening");
-      setTimeout(toggleSections, 3000);
+      setTimeout(toggleSections, 1000);
     }, 1000);
-  }, 3000);
+  }, 2000);
 });
