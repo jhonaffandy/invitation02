@@ -37,10 +37,15 @@ body {
     margin-top: 100px;
     text-align: end;
     color: #0a0a0a;
+    font-family: 'FristaRegular';
 }
 
 .title-text-section {
     font-family: 'FRISTARegular';
+}
+
+.opening-font {
+    font-family: "Playfair Display", serif;
 }
 
 
@@ -206,7 +211,7 @@ body {
 .hero h1 {
     /* font-family: "Playwrite DK Uloopet", cursive;
     font-size: 2rem; */
-    font-family: "Sacramento", cursive;
+    /* font-family: "Sacramento", cursive; */
     font-size: 4rem;
 }
 
@@ -971,7 +976,7 @@ body {
 .closing-section h1 {
     /* font-family: "Playwrite DK Uloopet", cursive;
     font-size: 2rem; */
-    font-family: "Sacramento", cursive;
+    /* font-family: "Sacramento", cursive; */
     font-size: 4rem;
 }
 
